@@ -1,0 +1,9 @@
+.equation-field {
+  width: 100%;
+}
+.value-field {
+  width: 100%;
+}
+.value-field::part(menu-toggle) {
+  display: none;
+}
