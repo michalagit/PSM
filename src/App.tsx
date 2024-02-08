@@ -7,6 +7,7 @@ import { Main } from "./zadania/zad1";
 import { GameOfLife } from "./zadania/zad2";
 import { Pendulum } from "./zadania/zad3";
 import { Crash } from "./zadania/zad4";
+import { Drunk } from "./zadania/zad5";
 
 import "https://unpkg.com/@cortex-js/compute-engine?module";
 
@@ -30,6 +31,7 @@ const App = () => {
             <StyledLink to="/game">Gra</StyledLink>
             <StyledLink to="/pendulum">Pendulum</StyledLink>
             <StyledLink to="/crash">Crash</StyledLink>
+            <StyledLink to="/drunk">Drunk</StyledLink>
           </Typography>
         </Toolbar>
       </AppBar>
@@ -41,6 +43,7 @@ const App = () => {
               <Route path="/game" element={<GameOfLife />} />
               <Route path="/pendulum" element={<Pendulum />} />
               <Route path="/crash" element={<Crash />} />
+              <Route path="/drunk" element={<Drunk />} />
             </Routes>
           </Box>
         </Container>
